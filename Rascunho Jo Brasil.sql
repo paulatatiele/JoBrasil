@@ -17,6 +17,9 @@ bairro varchar2 (150),
 cidade varchar2 (100),
 estado varchar2 (2));
 
+alter table tb_jobrasil_clientes add (
+nome_facil varchar2 (150));
+
 --primeiro cliente incluido
 insert into tb_jobrasil_clientes values (
     1,
